@@ -97,6 +97,20 @@ html {
     background-color: pink;
 }
 
+.project img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;        /* IMPORTANT — keeps hidden content clipped */
+    transition: height 0.3s ease;   /* Smooth expand */
+}
+.project:hover img{
+    
+    visibility: visible;
+}
+
 /* Hidden content stays below main content */
 .hidden-div {
     height: 150px;        /* Amount to reveal */
