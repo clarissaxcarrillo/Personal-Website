@@ -100,7 +100,7 @@ html {
 .project img{
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 5px;
     position: relative;
     overflow: hidden;        /* IMPORTANT — keeps hidden content clipped */
